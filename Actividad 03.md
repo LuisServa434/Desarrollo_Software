@@ -30,15 +30,33 @@ una parte del tráfico, lo que mejora el rendimiento, la disponibilidad y la esc
 
 ## 3) Elastic computing
 - Define con tus propias palabras el concepto de Elastic Computing.
-  
+
+Elastic Computing( Computacion elastica) existe gracias al cloud computing y los provedores de este. Consiste en que el provedor de tu servicio en la nube atraves de su monitereo se encargara de brindarte los recursos que necesites, como lo es el poder de computo, el almacenamiento, memoria RAM, etc., dependiendo de la demanda que tengas en ese instante.  Esto permite ahorrar costos ya que solo pagas por los recursos que consumes.
+
 - ¿Por qué la virtualización es una pieza clave para la elasticidad en la nube?
+
+La virtualizacion permite crear entornos virtuales que operan de forma independiente del hardware, por lo tanto es posible copiar, mover, clonar o eliminar sin alterar la infraestructura fisica. Esto es clave para la elasticidad porque permite crear o eliminar instancias dependiendo de la demanda
   
 - Menciona un escenario donde, desde la perspectiva de desarrollo, sería muy difícil escalar la infraestructura sin un entorno elástico.
 
+Cuando un videojuego grande va a ser lanzado, se genera mucha expectación y millones de usuarios intentan loggearse al instante en que el videojuego sale. Esta alta demanda (que suele durar unos días) puede traer problemas serios en los sistemas de login, matchmaking, descarga del cliente del juego, y gestión del tráfico de red.
+Desde la perspectiva de desarrollo, escalar manualmente toda la infraestructura para soportar esta carga temporal sería muy complejo y costoso. Sin un entorno elástico, sería necesario aprovisionar muchos más servidores de forma anticipada, lo que implicaría altos costos cuando la demanda baje.
+Un entorno de elastico permite escalar automáticamente los recursos según la carga real del sistema: aumentando la capacidad durante el lanzamiento y reduciéndola cuando la demanda baja
+Modelos de servicio (IaaS, PaaS, SaaS, DaaS)
+
 ## 4) Modelos de servicio (IaaS, PaaS, SaaS, DaaS)
 - Diferencia cada uno de estos modelos. ¿En qué casos un desarrollador optaría por PaaS en lugar de IaaS?
+
+IaaS (Infrastructure as a Service): Provisión de infraestructura, como lo son los servidores virtuales, redes, almacenamientopara que el usuario la administre.
+PaaS (Platform as a Service): Plataforma gestionada para desarrollar, desplegar y escalar aplicaciones sin preocuparse por la infraestructura.
+SaaS (Software as a Service): Software listo para usarse a través de internet, sin necesidad de instalación ni mantenimiento.
+DaaS (Desktop as a Service): Escritorios virtuales accesibles desde cualquier lugar, gestionados por el proveedo
+
+Un desarrollador optaría por PaaS en lugar de IaaS cuando necesita enfocarse únicamente en escribir y desplegar su código y no quiere encargarse de configurar servidores, redes o sistemas operativos
   
 - Enumera tres ejemplos concretos de proveedores o herramientas que correspondan a cada tipo de servicio.
+
+
 
 ## 5) Tipos de nubes (Pública, Privada, Híbrida, Multi-Cloud)
 - ¿Cuáles son las ventajas de implementar una nube privada para una organización grande?
