@@ -31,7 +31,11 @@ En el contexto de DevSecOps, desplazar a la izquierda significa implementar prá
 
 ## 3)¿Cuál es la diferencia entre monitoreo y observabilidad? ¿Por qué es crucial la observabilidad en sistemas complejos?
 
+Monitereo consiste en recolectar, almacenar y visualizar metricas, estas metricas pueden ser latencia, uso del cpu, etc. Para esto se hace uso de herramientas como Prometheus y grafana.  Por  otro lado la observabilidad es un componente esencial de DevSecOps que consta de 3 pilares logging, trazabilidad y monitoreo que definimos antes. Por lo tanto monitoreo es parte de Observabilidad 
+
 ## 4)¿Cómo puede la experiencia del desarrollador impactar el éxito de DevOps en una organización?
+
+La filosofia DevOps consiste en trabajar en equipo, por lo tanto la experiencia de un desarrollador puede ayudar a que el trabajo en equipo vaya en armonia y sepa como responder cuando inevitablemente se originen conflictos entre los equipos. Un desarrollador experimentado ya esta familiariazo con las tecnologias y los problemas que pueden surgir mientras se usan, por lo tanto el puede lidiar y/o liderar contra esos problemas.
 
 ## 5)Describe cómo InnerSource puede ayudar a reducir silos dentro de una organización.
 
