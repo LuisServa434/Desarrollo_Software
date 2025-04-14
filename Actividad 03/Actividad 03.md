@@ -79,10 +79,26 @@ Un desarrollador optaría por PaaS en lugar de IaaS cuando necesita enfocarse ú
     
 ## 5) Tipos de nubes (Pública, Privada, Híbrida, Multi-Cloud)
 - ¿Cuáles son las ventajas de implementar una nube privada para una organización grande?
-  
+
+Una nube privada es una infraestructura dedicada exclusivamente a una sola organización, lo que permite tener control total sobre el entorno tecnológico. Esto es ideal para organizaciones grandes que manejan datos sensibles o confidenciales, ya que pueden establecer protocolos de seguridad personalizados, cumplir con normativas específicas (como GDPR, HIPAA, etc.), y reducir los riesgos asociados a la exposición de datos.
+
+Además, las organizaciones grandes suelen tener requisitos de rendimiento muy altos y cargas de trabajo críticas que pueden ser mejor gestionadas en un entorno privado, evitando la congestión o variabilidad de recursos propia de una nube pública. También tienen la posibilidad de adaptar y optimizar la infraestructura según sus procesos internos, integrando sus sistemas heredados (on-premise) con mayor facilidad.
+
+Aunque su costo inicial es más elevado, a largo plazo puede resultar más eficiente para empresas con uso constante e intensivo de recursos.
+
 -  ¿Por qué una empresa podría verse afectada por el “provider lock-in”?
   
+El “provider lock-in” (bloqueo del proveedor) se refiere a la dependencia excesiva que una empresa puede desarrollar hacia un proveedor de servicios en la nube. Esto sucede cuando las soluciones utilizadas (infraestructura, plataformas o servicios) están fuertemente integradas con tecnologías propietarias del proveedor, dificultando la migración hacia otra nube.
+
+Una empresa afectada por el lock-in puede enfrentar costos elevados, limitaciones técnicas y barreras operativas si decide cambiar de proveedor, lo que limita su capacidad de adaptación. También se ve restringida a las condiciones, precios y políticas del proveedor actual, sin mucha posibilidad de negociación o flexibilidad. Este riesgo es especialmente preocupante en entornos donde la innovación o la expansión requieren agilidad tecnológica.
+  
 - ¿Qué rol juegan los “hyperscalers” en el ecosistema de la nube?
+
+Los hyperscalers son empresas que ofrecen servicios de nube a gran escala, como Amazon Web Services (AWS), Microsoft Azure y Google Cloud Platform (GCP). Su infraestructura está diseñada para escalar rápidamente y soportar millones de usuarios y aplicaciones simultáneamente. Tienen presencia global con centros de datos distribuidos, lo que permite una alta disponibilidad, baja latencia y confiabilidad.
+
+Su rol en el ecosistema es fundamental porque actúan como impulsores de la transformación digital, permitiendo que empresas de todos los tamaños accedan a tecnologías avanzadas como inteligencia artificial, machine learning, big data, IoT, y más, sin necesidad de construir infraestructuras propias.
+
+También fomentan la estandarización, innovación y competencia en el mercado, ya que constantemente desarrollan nuevos servicios y modelos de negocio. Al mismo tiempo, ofrecen entornos robustos que facilitan tanto el desarrollo como la operación de soluciones empresariales en la nube.
 
 # B) Actividades de investigación y aplicación
 
