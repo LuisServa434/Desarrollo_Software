@@ -47,17 +47,36 @@ Modelos de servicio (IaaS, PaaS, SaaS, DaaS)
 ## 4) Modelos de servicio (IaaS, PaaS, SaaS, DaaS)
 - Diferencia cada uno de estos modelos. ¿En qué casos un desarrollador optaría por PaaS en lugar de IaaS?
 
-IaaS (Infrastructure as a Service): Provisión de infraestructura, como lo son los servidores virtuales, redes, almacenamientopara que el usuario la administre.
-PaaS (Platform as a Service): Plataforma gestionada para desarrollar, desplegar y escalar aplicaciones sin preocuparse por la infraestructura.
-SaaS (Software as a Service): Software listo para usarse a través de internet, sin necesidad de instalación ni mantenimiento.
-DaaS (Desktop as a Service): Escritorios virtuales accesibles desde cualquier lugar, gestionados por el proveedo
+   - IaaS (Infrastructure as a Service): Provisión de infraestructura, como lo son los servidores virtuales, redes, almacenamientopara que el usuario la administre.
+   - PaaS (Platform as a Service): Plataforma gestionada para desarrollar, desplegar y escalar aplicaciones sin preocuparse por la infraestructura.
+   - SaaS (Software as a Service): Software listo para usarse a través de internet, sin necesidad de instalación ni mantenimiento.
+   - DaaS (Desktop as a Service): Escritorios virtuales accesibles desde cualquier lugar, gestionados por el proveedo
 
 Un desarrollador optaría por PaaS en lugar de IaaS cuando necesita enfocarse únicamente en escribir y desplegar su código y no quiere encargarse de configurar servidores, redes o sistemas operativos
   
 - Enumera tres ejemplos concretos de proveedores o herramientas que correspondan a cada tipo de servicio.
 
-
-
+1) **IaaS (Infrastructure as a Service)** : Ofrece infraestructura tecnológica como servidores, almacenamiento y redes, todo gestionado por el proveedor.
+     - Ejemplos:
+         - Amazon Web Services (AWS): Ofrece EC2 (Elastic Compute Cloud) para la computación y S3 para almacenamiento.
+         - Microsoft Azure: Proporciona máquinas virtuales y almacenamiento en la nube.
+         - Google Cloud Platform (GCP): Ofrece máquinas virtuales (Compute Engine) y almacenamiento (Cloud Storage).
+2) **PaaS (Platform as a Service)**: Ofrece plataformas de desarrollo que permiten a los usuarios crear, probar y ejecutar aplicaciones sin tener que gestionar la infraestructura subyacente.
+     - Ejemplos:
+         - Heroku: Proporciona una plataforma para desarrollar, ejecutar y gestionar aplicaciones.
+         - Google App Engine: Plataforma para crear aplicaciones web y móviles.
+         - Microsoft Azure App Service: Permite crear y gestionar aplicaciones web y móviles.
+3) **SaaS (Software as a Service)**: Ofrece software accesible a través de Internet, sin necesidad de instalar o gestionar el software en el dispositivo del usuario.
+     - Ejemplos:
+        - Google Workspace (G Suite): Conjunto de aplicaciones como Gmail, Google Drive y Google Docs.
+        - Microsoft 365: Conjunto de aplicaciones como Word, Excel y Teams, accesibles en la nube.
+        - Salesforce: Plataforma de gestión de relaciones con clientes (CRM) en la nube.
+4) **DaaS (Data as a Service)**: Proporciona acceso a datos como servicio, a menudo incluyendo almacenamiento, procesamiento y análisis de grandes volúmenes de datos.
+     - Ejemplos:
+        - Amazon Redshift: Servicio de almacenamiento y análisis de datos en la nube.
+        - Google BigQuery: Herramienta para análisis de grandes conjuntos de datos.
+        - Microsoft Azure Synapse Analytics: Plataforma de análisis y procesamiento de datos.
+    
 ## 5) Tipos de nubes (Pública, Privada, Híbrida, Multi-Cloud)
 - ¿Cuáles son las ventajas de implementar una nube privada para una organización grande?
   
@@ -67,12 +86,53 @@ Un desarrollador optaría por PaaS en lugar de IaaS cuando necesita enfocarse ú
 
 # B) Actividades de investigación y aplicación
 
-## 1)
+## 1) Estudios de casos 
+1) Schwarz Group (Lidl y Kaufland):
+- Motivaciones para la migración: Schwarz Group decidió migrar a la nube para obtener escalabilidad y flexibilidad en sus operaciones. Necesitaban adaptarse a picos de actividad en días específicos, como Navidad o el Black Friday, y buscaban una solución que les permitiera manejar estas fluctuaciones de manera eficiente. El País.
+- Beneficios obtenidos:
+     - Escalabilidad: La nube les permitió ajustar rápidamente sus recursos según la demanda, garantizando un rendimiento óptimo durante períodos de alta actividad.
+     - Flexibilidad: Pudieron adaptarse a las necesidades cambiantes del negocio sin las limitaciones de una infraestructura local.Skyone+1El País+1
+     - Soberanía y seguridad de datos: Al desarrollar su propia nube con centros de datos en Alemania, aseguraron el control y la protección de la información, cumpliendo con las regulaciones europeas. El País
+-	Desafíos enfrentados:
+     -	Desarrollo interno de la infraestructura: Construir y gestionar su propia nube requirió una inversión significativa en infraestructura, software y personal especializado.
+     -	Competencia en el mercado de servicios en la nube: Entrar en un mercado dominado por grandes proveedores estadounidenses supuso desafíos en términos de competitividad y diferenciación. El País
+2) SAP:
+- Motivaciones para la migración: SAP migró sus soluciones de software a la nube para mejorar la eficiencia operativa y adaptarse a las demandas del mercado actual, centrando su estrategia en servicios de cloud computing e inteligencia artificial. El País
+- Beneficios obtenidos:
+    - Mejora en márgenes y retención de clientes: La transición a la nube permitió a SAP ofrecer soluciones más innovadoras, mejorando sus márgenes y manteniendo la lealtad de sus clientes.El País
+    - Generación de ingresos recurrentes: Los servicios en la nube proporcionaron una fuente estable de ingresos, representando el 51% de sus ingresos totales. El País
+- Desafíos enfrentados:
+    - Adaptación cultural y organizativa: La transición a la nube implicó cambios significativos en la cultura empresarial y en la forma de operar, requiriendo capacitación y adaptación por parte del personal.
+    - Competencia en el mercado de la nube: Afrontaron la necesidad de diferenciarse en un mercado altamente competitivo, dominado por grandes proveedores. 
+3) Empresas en Colombia:
+- Motivaciones para la migración: Según un estudio, el 93% de las empresas colombianas migraron a la nube como parte de su estrategia de transformación empresarial, buscando beneficios como eficiencia, disponibilidad y flexibilidad. Datacenter Dynamics
+-	Beneficios obtenidos:
+    - Reducción de costos: La migración permitió disminuir gastos asociados a infraestructura y mantenimiento de centros de datos locales.Check Point Software+1El País+1
+    - Escalabilidad y flexibilidad: Las empresas pudieron ajustar sus recursos tecnológicos según las necesidades del negocio, mejorando la adaptabilidad.
+- Desafíos enfrentados:
+    - Integración de sistemas: La adaptación de sistemas locales a entornos en la nube requirió esfuerzos significativos de integración y adaptación.Incentro
+    - Gestión del cambio: La transición implicó desafíos culturales y operativos, requiriendo capacitación y ajustes en los procesos internos.
+      
+## 2) Comparativa de modelos de servicio.
+- Realiza un cuadro comparativo en el que muestres las responsabilidades del desarrollador, del proveedor y del equipo de operaciones en los distintos modelos (IaaS, PaaS, SaaS).
+- Incluye aspectos como: instalación de SO, implementación de aplicaciones, escalado automático, parches de seguridad, etc.
 
-## 2)
+| Aspecto                             | IaaS (Infraestructura como Servicio)                                                                                                                                     | PaaS (Plataforma como Servicio)                                                                                                                       | SaaS (Software como Servicio)                                                                                                         |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **Instalación de Sistema Operativo (SO)** | Responsabilidad del proveedor: El proveedor proporciona el sistema operativo, pero el cliente tiene control sobre la instalación y configuración.                      | Responsabilidad del proveedor: El proveedor gestiona el sistema operativo y las actualizaciones.                                                      | Responsabilidad del proveedor: El proveedor gestiona todo, incluido el sistema operativo.                                           |
+| **Implementación de aplicaciones**       | Responsabilidad del cliente (desarrollador): El desarrollador es responsable de instalar y configurar sus propias aplicaciones.                                        | Responsabilidad del cliente (desarrollador): El desarrollador implementa y gestiona las aplicaciones en la plataforma proporcionada por el proveedor. | Responsabilidad del proveedor: El proveedor gestiona e implementa las aplicaciones disponibles para el usuario final.               |
+| **Escalado automático**                  | Responsabilidad del cliente (desarrollador): El desarrollador puede configurar el escalado automático según las necesidades de la aplicación.                          | Responsabilidad del proveedor: El proveedor gestiona el escalado automático de la plataforma, pero el cliente puede configurarlo según los recursos utilizados. | Responsabilidad del proveedor: El proveedor gestiona el escalado automático del servicio sin intervención del cliente.             |
+| **Parches de seguridad**                | Responsabilidad del proveedor: El proveedor gestiona la infraestructura de seguridad, pero el cliente es responsable de la seguridad de sus aplicaciones.              | Responsabilidad del proveedor: El proveedor gestiona la seguridad de la plataforma, incluidas las actualizaciones de seguridad.                        | Responsabilidad del proveedor: El proveedor gestiona todo, incluyendo los parches de seguridad y las actualizaciones.              |
+| **Mantenimiento de hardware**           | Responsabilidad del proveedor: El proveedor es responsable del mantenimiento y funcionamiento del hardware en la infraestructura.                                     | Responsabilidad del proveedor: El proveedor gestiona el mantenimiento de la infraestructura y las plataformas.                                        | Responsabilidad del proveedor: El proveedor gestiona todo el mantenimiento y actualización de la infraestructura.                 |
+| **Administración de red**              | Responsabilidad del proveedor: El proveedor maneja la infraestructura de red, pero el cliente puede tener que configurar las redes virtuales.                          | Responsabilidad del proveedor: El proveedor gestiona la red para la plataforma, pero el cliente puede configurar aspectos específicos.                | Responsabilidad del proveedor: El proveedor gestiona toda la infraestructura de red.                                               |
+| **Backup de datos**                    | Responsabilidad del cliente (equipo de operaciones): El cliente debe gestionar las copias de seguridad de sus aplicaciones y datos.                                   | Responsabilidad del proveedor: El proveedor generalmente proporciona opciones de backup, aunque el cliente puede configurarlo.                         | Responsabilidad del proveedor: El proveedor es responsable de realizar las copias de seguridad y garantizar la recuperación de datos. |
+| **Gestión de la infraestructura**      | Responsabilidad del proveedor: El proveedor es responsable de la infraestructura física y la virtualización, pero el cliente gestiona sus instancias.                | Responsabilidad del proveedor: El proveedor gestiona la infraestructura y la plataforma, pero el cliente gestiona las aplicaciones.                    | **Responsabilidad del proveedor**: El proveedor gestiona la infraestructura, la plataforma y las aplicaciones.                      |
 
-## 3)
-
+## 3) Armar una estrategia multi-cloud o híbrida
+- Diseña una estrategia (de forma teórica) para migrar el 50% de tus cargas de trabajo a un segundo proveedor de nube, con el fin de no depender exclusivamente de uno.
+Para seleccionar al nuevo proveedor, debemos evaluar distintos factores, como el costo, la ubicación de sus servidores, el soporte técnico, los servicios que ofrecen en su plataforma, entre otros. Es necesario analizar las cargas de trabajo en función de su criticidad, los requisitos de rendimiento, la sensibilidad de los datos y cuáles pueden aprovechar mejor las funciones que el nuevo servicio de nube ofrece.
+- Explica dónde iría la base de datos, cómo manejarías la configuración de red y cuál sería el plan de contingencia si un proveedor falla
+Lo más sensato es que la base de datos se mantenga en el lugar donde estaba originalmente almacenada, ya sea en el servicio de nube original o en el data center propio, y luego hacer conexiones seguras desde el segundo servicio de nube. Si tuviéramos dos bases de datos, una en cada servicio de nube, esto resultaría más costoso y habría que establecer mecanismos de sincronización entre ambos proveedores. Para la conexión de red, se pueden utilizar VPNs para conectar el data center propio y los dos servicios de nube. Si el proveedor del servicio fuera una empresa grande, como AWS, se podría usar sus servicios de conexión directa que ofrecen. Para las cargas de trabajo críticas, mantenemos una réplica pasiva en el otro proveedor de nube. En caso de fallo del proveedor primario, se activa la réplica en el proveedor secundario. También podemos distribuir las cargas de trabajo críticas entre ambos proveedores de nube de forma activa. De este modo, si un proveedor falla, el otro proveedor puede absorber el tráfico adicional.
 ## 4) Debate sobre costos
 
 # Comparación de Tipos de Nube
